@@ -28,7 +28,7 @@ def readListElementAndIndex(mylist):
         
         
  
-foo = (8, 1 , 2 , 3 , 1 , 2 , 3 , "a" , "b" , "c" , "a" , "b" , "c" , 1 , 2 , 3 , 1 , 2 , 3 , 21)
+foo = (8 , 1 , 2 , 3 , 1 , 2 , 3 , "a" , "b" , "c" , "a" , "b" , "c" , 1 , 2 , 3 , 1 , 2 , 3 , 21)
 
 readListElementAndIndex(foo)
 
