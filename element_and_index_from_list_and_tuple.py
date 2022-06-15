@@ -4,6 +4,9 @@
 
 
 
+
+
+
 # return all Werte and index for list
 
 # Source code author cobrasathdtv@googlemail.com
@@ -22,7 +25,7 @@ def readListElementAndIndex(mylist):
             continue
         print("")
         d = 0
-        while foo.count(element)>=counter and element not in duplicate_element:
+        while mylist.count(element)>=counter and element not in duplicate_element:
             if counter==1:
                 print(f"element {element} have index {mylist.index(element)}" , end = " ")
             else:
@@ -36,4 +39,6 @@ def readListElementAndIndex(mylist):
 foo = (8, 1 , 2 , 3 , 1 , 2 , 3 , "a" , "b" , "c" , "a" , "b" , "c" , 1 , 2 , 3 , 1 , 2 , 3 , 21)
 
 readListElementAndIndex(foo)
+    
+
     
