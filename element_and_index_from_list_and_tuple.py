@@ -14,7 +14,7 @@ def readListElementAndIndex(mylist):
         counter = 1
         if element in duplicate_element:
             continue
-        print("")
+        #print("")
         d = 0
         while mylist.count(element)>=counter and element not in duplicate_element:
             if counter==1:
@@ -24,6 +24,7 @@ def readListElementAndIndex(mylist):
                 print(f"{mylist.index(element,d)}" , end = " ")
             counter +=1
         duplicate_element.append(element)
+        print("")
         
         
  
