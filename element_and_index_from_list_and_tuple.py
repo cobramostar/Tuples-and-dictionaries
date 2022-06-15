@@ -1,12 +1,3 @@
-
-
-
-
-
-
-
-
-
 # return all Werte and index for list
 
 # Source code author cobrasathdtv@googlemail.com
